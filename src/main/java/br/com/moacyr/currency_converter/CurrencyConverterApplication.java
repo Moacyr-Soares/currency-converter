@@ -1,5 +1,6 @@
 package br.com.moacyr.currency_converter;
 
+import br.com.moacyr.currency_converter.services.APIConsumption;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -76,6 +77,7 @@ public class CurrencyConverterApplication implements CommandLineRunner {
 				System.out.println("Digite o valor que deseja converter ");
 
 				value = sc.nextDouble();
+
 			}
 		}
 		sc.close();
