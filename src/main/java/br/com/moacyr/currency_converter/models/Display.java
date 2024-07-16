@@ -1,4 +1,4 @@
-package br.com.moacyr.currency_converter.services;
+package br.com.moacyr.currency_converter.models;
 
 public class Display {
     public void display(){
